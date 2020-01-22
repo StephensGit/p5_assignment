@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="js/p5.min.js"></script>
+    <script src="js/p5.dom.min.js"></script>
+    <script src="js/p5.collide2d.js"></script>
+    <script src="js/dat.gui.js"></script>
+
+    <script src="classes/variable.js"></script>
+    <script src="sketch.js"></script>
+    <script src="classes/molecule.js"></script>
+    <script src="classes/infector.js"></script>
+    <script src="classes/healthy.js"></script>
+    <script src="classes/immune.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+    <!--FONTS-->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+
+    <title>Sketch Controls</title>
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="row">
+            <div id="canvasHolder" class="col-md-12 myCanvas">
+              <div class="row">
+                <div class="col-4">
+                  <h2 class="legends" type="square" style="color:#b7ccb1"><img src="images/healthyLegend.png" width="20" height="20"><span>    </span>Healthy</h2>
+                </div>
+                <div class="col-4">
+                  <h2 class="legends" type="square" style="color:#adcddb"><img src="images/immuneLegend.png" width="20" height="20"><span>    </span>Immune</h2>
+                </div>
+                <div class="col-4">
+                  <h2 class="legends" type="square" style="color:#eb4149"><img src="images/redLegend.png" width="20" height="20"><span>    </span>Infected</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+
+              <div class="row">
+                <div class="col-6">
+                  <h1 class="headings"> P5 Simulation</h1>
+                  <p>Above is a natural molecule simulation that was designed and developed using the <a class="link" href="https://p5js.org/">P5 javascript library</a>.
+                    When the infected molecules intersect with the healthy molecules they have a 40% chance of infecting them.
+                    Use the sliders in the controllers at the top right of the screen to adjust some elements, such as
+                    the size of the molecules, how many appear on the
+                  <p>
+                </div>
+
+                <div class="col-6">
+                  <h1 class="headings2"> P5 Simulation</h1>
+                  <p>
+                    screen everytime it's refreshed. Also interact with the simulation by using the mouse to click
+                    on the infected molecules to make them dissapear.<br><br>
+                    <span class="names">Developed by Stephen Moran</span><br>
+                    <span class="college">Creative Computing - IADT</span>
+                    <p>
+                    <!-- <p class="name">Developed by Stephen Moran</p> -->
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- <h3>Number of Infectors</h3> -->
+                    </div>
+                    <div id="numInfectorsSlider" class="col-md-7">
+
+                    </div>
+                    <div id="numInfectorsValue" class="col-md-2">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <!-- <h3>Number of Healthy</h3> -->
+                    </div>
+                    <div id="numHealthySlider" class="col-md-7">
+
+                    </div>
+                    <div id="numHealthyValue" class="col-md-2">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!-- Some text explaining stuff -->
+            </div>
+        </div>
+
+
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

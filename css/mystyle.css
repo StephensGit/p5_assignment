@@ -1,0 +1,49 @@
+.headings  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  /* border-left: 4mm ridge rgb(170, 50, 220, .6); */
+}
+
+.headings2  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  /* border-left: 4mm ridge rgb(170, 50, 220, .6); */
+}
+
+.legends  {
+  /* font-family:  'Roboto', sans-serif; */
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+.text {
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+}
+
+.myCanvas{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.box {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: 2px solid;
+}
+.names  {
+  font-weight: 900;
+  float: right;
+}
+.college  {
+  font-weight: 900;
+  color: #666666 ;
+  float: right;
+}
+
+.link { color: #666666; }
